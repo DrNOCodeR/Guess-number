@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="num.png">
+  <title>Угадай число</title>
+  <style>
+    body{font-family: consolas;}
+    .a1{font-size: 5em;font-weight: bold;}
+    .a2{font-size: 3em;}
+    .a3{font-size: 2em;}
+    #guess,#hint,#result{font-size: 2em;}
+    .btn{font-size: 20px; padding: 10px;}
+  </style>
+</head>
+
+<body>
+  <p class="a1">Угадай число<p>
+  <p class="a2">Угадай число от 1 до 100</p>
+  <label class="a3">Введите число</label>
+  <input type="number" id="guess"> <br><br>
+  <input type="submit" class="btn" id="btn"> 
+  <input type="submit" class="btn" id="reset" value="Cбросить">
+  <p id="hint"></p>
+  <p id="result"></p>
+
+  <script src="index.js"></script>
+</body>
+</html>
